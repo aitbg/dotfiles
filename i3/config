@@ -1,0 +1,192 @@
+##Basic Definitions
+
+hide_edge_borders both
+for_window [class="^.*"] border pixel 2
+gaps inner 15
+gaps outer 15
+font pango:Misc Tamsyn 9
+set $mod Mod4
+set $term termite
+set $browser firefox
+
+#External Scrips
+#auto-start mpd
+exec --no-startup-id mpd
+#wifi applet:
+exec --no-startup-id nm-applet
+#Composite manager:
+exec --no-startup-id compton
+#Wallpaper --Nitrogen
+exec --no-startup-id nitrogen --restore
+#No beep
+exec --no-startup-id xset b off
+#Required in order for polybar to work
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#Not sleep for longer time?
+exec --no-startup-id caffeine
+#Show notifications
+exec --no-startup-id dunst
+
+#Audio
+
+set $music termite -e ncmpcpp
+
+#Bindings
+
+bindsym $mod+Return	exec $term
+
+#runner
+bindsym $mod+d exec rofi -show run
+
+#kill window
+bindsym $mod+Shift+q		kill
+bindsym $mod+q			kill
+#change inner gap size
+bindsym $mod+x			gaps inner current plus 5
+bindsym $mod+Shift+x 		gaps inner current minus 5
+#change outter gap size
+bindsym $mod+z			gaps outer current plus 5
+bindsym $mod+Shift+z 		gaps outer current minus 5
+
+#window stuff
+bindsym $mod+h			focus left
+bindsym $mod+Shift+h		move left 30
+
+bindsym $mod+j			focus down
+bindsym $mod+Shift+j		move down 30
+
+bindsym $mod+k			focus up
+bindsym $mod+Shift+k		move up 30
+
+bindsym $mod+l			focus right
+bindsym $mod+Shift+l 		move right 30
+
+#Resizing
+bindsym $mod+Shift+y		resize shrink width 10 px or 10ppt
+bindsym $mod+Shift+u		resize shrink height 10 px or 10 ppt
+bindsym $mod+Shift+i		resize grow height 10 px or 10 ppt
+bindsym $mod+Shift+o		resize grow width 10 px or 10 ppt
+bindsym $mod+Shift+d 		gaps inner current set 0; gaps outer current set 0
+bindsym $mod+Shift+t 		gaps inner current set 15; gaps outer current set 15
+
+###---Arrow Keys---###
+bindsym $mod+Left		focus left
+bindsym $mod+Down		focus down
+bindsym $mod+Up			focus up
+bindsym $mod+Right 		focus right
+bindsym $mod+Shift+Left		move left
+bindsym $mod+Shift+Down		move down
+bindsym $mod+Shift+Up		move up
+bindsym $mod+Shift+Right 	move right
+
+
+#Music
+bindsym $mod+v exec $term -e ncmpcpp -s visualizer
+bindsym $mod+m exec $music
+
+#workspaces
+
+# split in horizontal orientation
+#bindsym $mod+h split h
+
+# split in vertical orientation
+#bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+t 	      split toggle
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+#Lock screen
+bindsym $mod+b exec --no-startup-id ~/.config/i3/lock.sh
+
+#Chat
+bindsym $mod+c		exec $term -e weechat
+
+bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up
+bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
+bindsym XF86AudioMute exec pulseaudio-ctl mute
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
+
+#Workspace names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1		workspace $ws1
+bindsym $mod+2		workspace $ws2
+bindsym $mod+3		workspace $ws3
+bindsym $mod+4		workspace $ws4
+bindsym $mod+5		workspace $ws5
+bindsym $mod+6		workspace $ws6
+bindsym $mod+7		workspace $ws7
+bindsym $mod+8		workspace $ws8
+bindsym $mod+9		workspace $ws9
+bindsym $mod+0		workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1	move container to workspace $ws1
+bindsym $mod+Shift+2	move container to workspace $ws2
+bindsym $mod+Shift+3	move container to workspace $ws3
+bindsym $mod+Shift+4	move container to workspace $ws4
+bindsym $mod+Shift+5	move container to workspace $ws5
+bindsym $mod+Shift+6	move container to workspace $ws6
+bindsym $mod+Shift+7	move container to workspace $ws7
+bindsym $mod+Shift+8	move container to workspace $ws8
+bindsym $mod+Shift+9	move container to workspace $ws9
+bindsym $mod+Shift+0 	move container to workspace $ws10
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+#bar
+
+#bar {
+#    position top
+#    status_command i3blocks
+#    font pango:Misc Tamsyn 9
+#}
+
+
+#class .. border colors
+
+# class			border	backgr.	text	indicator
+client.focused		#a54242	#a54242	#080808	#a54242
+#client.urgent		#ff0000	#ff0000	#080808	#080808
+client.unfocused 	#333333 #121212 #888888 #292d2e
+#cfa30d
+#20003d
+#indicator 080808
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
