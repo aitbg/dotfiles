@@ -1,0 +1,228 @@
+#+STARTUP: overview
+* Interface choices
+#+BEGIN_SRC emacs-lisp
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(tooltip-mode -1)
+(scroll-bar-mode -1)
+(blink-cursor-mode -1)
+(fset 'yes-or-no-p 'y-or-n-p)
+(global-set-key (kbd "<f5>") 'revert-buffer)
+#+END_SRC
+* Try: try a package
+#+BEGIN_SRC emacs-lisp
+(use-package try
+    :ensure t)
+#+END_SRC
+* Which-key: gives examples of next button for keybindings
+#+BEGIN_SRC emacs-lisp
+(use-package which-key
+  :ensure t
+  :config (which-key-mode))
+#+END_SRC
+* org-mode stuff
+#+BEGIN_SRC emacs-lisp
+  ;;This package makes org bullets look prettier, replaces *s
+  (use-package org-bullets
+    :ensure t
+    :config
+    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+  ;;end of org-bullets
+#+END_SRC
+* Buffers
+#+BEGIN_SRC emacs-lisp
+(defalias 'list-buffers 'ibuffer)
+#+END_SRC
+* Windows and movement
+#+BEGIN_SRC emacs-lisp
+  (use-package counsel
+    :ensure t
+    :bind
+    (("M-y" . counsel-yank-pop)
+     :map ivy-minibuffer-map
+     ("M-y" . ivy-next-line)))
+   
+  (use-package ivy
+    :ensure t
+    :diminish (ivy-mode)
+    :bind (("C-x b" . ivy-switch-buffer))
+    :config
+    (ivy-mode 1)
+    (setq ivy-use-virtual-buffers t)
+    (setq ivy-display-style 'fancy))
+
+  (use-package swiper
+    :ensure t
+    :bind (("C-s" . swiper)
+           ("C-r" . swiper)
+           ("C-c C-r" . ivy-resume)
+           ("M-x" . counsel-M-x)
+           ("C-x C-f" . counsel-find-file))
+    :config
+    (progn
+      (ivy-mode 1)
+      (setq ivy-use-virtual-buffers t)
+      (setq ivy-display-style 'fancy)
+      (define-key read-expression-map (kbd "C-r") 'counsel-expression-history)
+      ))
+
+  ;; Ace Windows to make switching windows easier
+
+  (use-package ace-window
+    :ensure t
+    :init
+    (progn
+      (setq aw-scope 'frame)
+      (global-set-key (kbd "C-x O") 'other-frame)
+      (global-set-key [remap other-window] 'ace-window)
+      (custom-set-faces
+       '(aw-leading-char-face
+         ((t (:inherit ace-jump-face-foreground :height 3.0)))))))
+#+END_SRC
+* Dired 
+#+BEGIN_SRC emacs-lisp
+  (use-package dired+
+    :ensure t
+    :config (require 'dired+)
+    )
+
+
+  (use-package dired-quick-sort
+    :ensure t
+    :config
+    (dired-quick-sort-setup))
+#+END_SRC
+* auto-complete
+#+BEGIN_SRC emacs-lisp
+(use-package company
+   :ensure t
+   :config (add-hook 'prog-mode-hook 'company-mode)
+   (progn
+     (global-company-mode t)))
+
+#+END_SRC
+* Themes...
+#+BEGIN_SRC emacs-lisp
+;;large collection of base16 themes
+(use-package base16-theme
+ :ensure t
+)
+;;just a light and a dark moe theme
+(use-package moe-theme 
+ :ensure t)
+
+#+END_SRC
+* Flycheck for syntax highlighting (multi-lang)
+#+BEGIN_SRC emacs-lisp
+(use-package flycheck
+ :ensure t
+ :init
+ (global-flycheck-mode t))
+
+
+#+END_SRC
+* python
+#+BEGIN_SRC emacs-lisp
+  (setq py-python-command "python3")
+  (setq python-shell-interpreter "python3")
+
+  (use-package jedi
+    :ensure t
+    :init
+    (add-hook 'python-mode-hook 'hedi:setup)
+    (add-hook 'python-mode-hook 'jedi:ac-setup))
+
+
+  (use-package elpy
+    :ensure t
+    :config
+    (elpy-enable))
+
+  (use-package virtualenvwrapper
+    :ensure t
+  )
+
+#+END_SRC
+* Yasnippet
+#+BEGIN_SRC emacs-lisp
+ (use-package yasnippet
+  :ensure t
+  :init
+  (yas-global-mode 1))
+
+#+END_SRC
+* undo tree
+#+BEGIN_SRC emacs-lisp
+ (use-package undo-tree
+ :ensure t
+ :init
+(global-undo-tree-mode))
+#+END_SRC
+* Projectile
+* Dumb Jump
+#+BEGIN_SRC emacs-lisp
+  ;;This is a tags replacement thing
+
+  (use-package dumb-jump
+    :bind (("M-g o" . dumb-jump-go-other-window)
+           ("M-g j" . dumb-jump-go)
+           ("M-g x" . dumb-jump-go-prefer-external)
+           ("M-g z" . dumb-jump-go-prefer-external-other-window))
+    :config (setq dumb-jump-selector 'ivy) ;; (setq dumb-jump-selector 'helm)
+    :init
+  (dumb-jump-mode)
+    :ensure
+  )
+#+END_SRC
+* Small packages
+#+BEGIN_SRC emacs-lisp
+;;expand marked region
+(use-package expand-region
+ :ensure t
+ :config
+ (global-set-key (kbd "C-=") 'er/expand-region)) 
+
+#+END_SRC
+* c and c++
+#+BEGIN_SRC emacs-lisp
+;; Available C style:
+;; “gnu”: The default style for GNU projects
+;; “k&r”: What Kernighan and Ritchie, the authors of C used in their book
+;; “bsd”: What BSD developers use, aka “Allman style” after Eric Allman.
+;; “whitesmith”: Popularized by the examples that came with Whitesmiths C, an early commercial C compiler.
+;; “stroustrup”: What Stroustrup, the author of C++ used in his book
+;; “ellemtel”: Popular C++ coding standards as defined by “Programming in C++, Rules and Recommendations,” Erik Nyquist and Mats Henricson, Ellemtel
+;; “linux”: What the Linux developers use for kernel development
+;; “python”: What Python developers use for extension modules
+;; “java”: The default style for java-mode (see below)
+;; “user”: When you want to define your own style
+(setq
+ c-default-style "bsd" ;; set style to "bsd" aka Allman
+ )
+
+;;Makes flycheck use c++11 as standard
+(add-hook 'c++-mode-hook (lambda () (setq flycheck-clang-language-standard "c++11")))
+
+#+END_SRC
+* NeoTree
+#+BEGIN_SRC emacs-lisp
+(use-package neotree
+ :ensure t
+ :init
+ (progn
+ (global-set-key [f8] 'neotree-toggle)))
+; n, p -> next or previous
+; spc, ret, tab: open file or fold/unfold directory
+; g -> refresh
+; A -> maximize or minimize neotree window 
+; H -> toggle display hidden files
+; C-c C-n -> create file or directory
+; C-c C-d -> Delte
+; C-c C-r -> rename
+; C-c C-c -> Change the root direcoty
+
+#+END_SRC
+* web mode (unused)
+* Samples
