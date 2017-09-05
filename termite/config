@@ -1,0 +1,45 @@
+#font = Misc Tamsyn 12
+#background = rgba(63, 63, 63, 0.9) 
+[options]
+font = Misc Tamsyn 11
+#font = lucy tewi 10
+
+[colors]
+
+# special
+foreground      = #8ca68c
+foreground_bold = #8ca68c
+cursor          = #8ca68c
+background      = #131513
+
+# black
+color0  = #131513
+color8  = #687d68
+
+# red
+color1  = #e6193c
+color9  = #e6193c
+
+# green
+color2  = #29a329
+color10 = #29a329
+
+# yellow
+color3  = #c3c322
+color11 = #c3c322
+
+# blue
+color4  = #3d62f5
+color12 = #3d62f5
+
+# magenta
+color5  = #ad2bee
+color13 = #ad2bee
+
+# cyan
+color6  = #1999b3
+color14 = #1999b3
+
+# white
+color7  = #8ca68c
+color15 = #f0fff0

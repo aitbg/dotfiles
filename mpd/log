@@ -1,0 +1,624 @@
+Jul 26 12:53 : exception: Failed to open /home/tiaor/.config/mpd/state: No such file or directory
+Jul 26 12:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 26 12:54 : client: [0] opened from [::1]:57434
+Jul 26 13:03 : client: [0] closed
+Jul 26 13:03 : client: [1] opened from [::1]:57492
+Jul 26 13:03 : client: [1] closed
+Jul 26 13:03 : client: [2] opened from [::1]:57494
+Jul 26 13:08 : exception: Not playing
+Jul 26 13:08 : exception: Not playing
+Jul 26 13:08 : exception: Access denied
+Jul 26 13:08 : exception: Access denied
+Jul 26 13:11 : client: [2] closed
+Jul 26 13:11 : client: [3] opened from [::1]:57496
+Jul 26 13:11 : client: [3] closed
+Jul 26 13:20 : client: [4] opened from [::1]:57502
+Jul 26 13:21 : client: [4] closed
+Jul 28 10:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 10:03 : client: [0] opened from [::1]:57294
+Jul 28 10:03 : client: [0] closed
+Jul 28 10:21 : client: [1] opened from [::1]:57736
+Jul 28 10:23 : client: [2] opened from [::1]:57746
+Jul 28 10:23 : client: [2] closed
+Jul 28 10:25 : client: [1] closed
+Jul 28 10:34 : exception: Failed to open /home/tiaor/.config/mpd/mpdstate: No such file or directory
+Jul 28 10:34 : config: option 'device' on line 13 was not recognized
+Jul 28 10:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 10:34 : client: [0] opened from 127.0.0.1:43536
+Jul 28 10:34 : client: [0] closed
+Jul 28 10:38 : client: [1] opened from 127.0.0.1:43540
+Jul 28 10:38 : client: [1] closed
+Jul 28 10:39 : client: [2] opened from 127.0.0.1:43544
+Jul 28 10:39 : client: [2] closed
+Jul 28 10:41 : config: option 'device' on line 19 was not recognized
+Jul 28 10:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 10:41 : client: [0] opened from [::1]:57198
+Jul 28 10:42 : client: [0] closed
+Jul 28 10:47 : config: option 'device' on line 19 was not recognized
+Jul 28 10:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 10:47 : client: [0] opened from [::1]:57442
+Jul 28 10:48 : client: [0] closed
+Jul 28 10:49 : client: [1] opened from [::1]:57444
+Jul 28 10:49 : client: [1] closed
+Jul 28 11:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 11:17 : client: [0] opened from [::1]:57516
+Jul 28 11:18 : client: [0] closed
+Jul 28 13:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 13:33 : client: [0] opened from [::1]:60098
+Jul 28 13:33 : update: added /MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3
+Jul 28 13:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 13:34 : client: [0] closed
+Jul 28 13:34 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Jul 28 13:34 : player: played "MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3"
+Jul 29 11:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 29 11:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 29 11:56 : client: [0] opened from [::1]:54876
+Jul 29 12:03 : player: played "MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3"
+Jul 29 12:05 : update: added /Dreamwaves.mp3
+Jul 29 12:06 : update: removing MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3
+Jul 29 12:06 : update: added synthwave/Dreamwaves.mp3
+Jul 29 12:06 : update: removing Dreamwaves.mp3
+Jul 29 12:06 : update: added vaporwave/MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3
+Jul 29 12:07 : player: played "synthwave/Dreamwaves.mp3"
+Jul 29 12:13 : player: played "synthwave/Dreamwaves.mp3"
+Jul 29 12:17 : update: removing vaporwave/MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3
+Jul 29 12:17 : update: added vaporwave/Macintosh Plus/MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3
+Jul 29 12:17 : update: added electric/HOME/HOME - Resonance.mp3
+Jul 29 12:24 : client: [0] closed
+Jul 29 13:01 : client: [1] opened from [::1]:55446
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/01Intro.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/08SpringBreak199X.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/09StarboltReprise.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/04SummerIsGone.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/03SplashNebula.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/10ACruelAngelThesisAyanamiReggaeVer.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/05Neo-TokyoSunset.mp3
+Jul 29 13:02 : update: added bit/Slime Girls/Vacation Wasted/07Starbolt.mp3
+Jul 29 13:02 : client: [1] closed
+Jul 29 13:02 : player: played "bit/Slime Girls/Vacation Wasted/10ACruelAngelThesisAyanamiReggaeVer.mp3"
+Jul 29 13:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 29 13:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 29 13:10 : client: [0] opened from [::1]:57632
+Jul 29 13:20 : player: played "bit/Slime Girls/Vacation Wasted/10ACruelAngelThesisAyanamiReggaeVer.mp3"
+Jul 29 13:23 : player: played "bit/Slime Girls/Vacation Wasted/04SummerIsGone.mp3"
+Jul 29 13:27 : client: [0] closed
+Jul 29 13:27 : exception: "pulse audio" [pulse] failed to play: disconnected
+Jul 29 13:27 : player: played "synthwave/Dreamwaves.mp3"
+Jul 30 00:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 30 00:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 30 00:03 : client: [0] opened from [::1]:42494
+Jul 30 00:04 : player: played "synthwave/Dreamwaves.mp3"
+Jul 30 00:58 : player: played "electric/HOME/HOME - Resonance.mp3"
+Jul 30 01:04 : player: played "electric/HOME/HOME - Resonance.mp3"
+Jul 30 01:04 : player: played "bit/Slime Girls/Vacation Wasted/01Intro.mp3"
+Jul 30 01:05 : client: [0] closed
+Jul 30 01:05 : client: [1] opened from [::1]:42496
+Jul 30 01:07 : player: played "bit/Slime Girls/Vacation Wasted/03SplashNebula.mp3"
+Jul 30 01:11 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Jul 30 01:15 : player: played "bit/Slime Girls/Vacation Wasted/04SummerIsGone.mp3"
+Jul 30 01:16 : player: played "bit/Slime Girls/Vacation Wasted/09StarboltReprise.mp3"
+Jul 30 01:20 : player: played "bit/Slime Girls/Vacation Wasted/08SpringBreak199X.mp3"
+Jul 30 01:25 : player: played "bit/Slime Girls/Vacation Wasted/10ACruelAngelThesisAyanamiReggaeVer.mp3"
+Jul 30 01:28 : client: [1] closed
+Jul 30 01:28 : player: played "vaporwave/Macintosh Plus/MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3"
+Jul 30 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 30 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 30 10:43 : client: [0] opened from [::1]:42792
+Jul 30 10:44 : client: [0] closed
+Jul 30 10:44 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Jul 31 23:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 01 09:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 01 09:58 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Aug 01 11:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 01 12:42 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Aug 01 13:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 01 14:00 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Aug 01 20:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 01 21:01 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Aug 02 09:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 02 10:07 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Aug 02 10:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 02 10:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 02 11:34 : player: played "bit/Slime Girls/Vacation Wasted/02VacationWasteland.mp3"
+Aug 02 12:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 02 13:27 : client: [0] opened from [::1]:52046
+Aug 02 13:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 02 13:31 : update: updating synthwave/Dreamwaves.mp3
+Aug 02 13:31 : player: played "bit/Slime Girls/Vacation Wasted/05Neo-TokyoSunset.mp3"
+Aug 02 13:31 : client: [0] closed
+Aug 02 13:32 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 02 18:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 02 20:33 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 03 16:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 17:35 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 03 19:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 19:53 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 10 17:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 18:07 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 10 19:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 20:08 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 13 11:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 11:34 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 13 11:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 12:04 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 18 05:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 18 05:46 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 23 13:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 23 13:39 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 23 23:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 23 23:30 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 24 01:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 02:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 02:16 : client: [0] opened from 127.0.0.1:32988
+Aug 24 02:16 : client: [1] opened from 127.0.0.1:32990
+Aug 24 02:21 : client: [0] closed
+Aug 24 02:21 : client: [1] closed
+Aug 24 02:21 : client: [2] opened from 127.0.0.1:33006
+Aug 24 02:21 : client: [3] opened from 127.0.0.1:33008
+Aug 24 02:21 : client: [4] opened from 127.0.0.1:33012
+Aug 24 02:21 : client: [5] opened from 127.0.0.1:33014
+Aug 24 02:21 : client: [3] closed
+Aug 24 02:21 : client: [5] closed
+Aug 24 02:21 : client: [4] closed
+Aug 24 02:21 : client: [2] closed
+Aug 24 02:21 : client: [6] opened from 127.0.0.1:33016
+Aug 24 02:21 : client: [7] opened from 127.0.0.1:33018
+Aug 24 02:21 : client: [8] opened from 127.0.0.1:33020
+Aug 24 02:21 : client: [9] opened from 127.0.0.1:33022
+Aug 24 02:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 02:21 : client: [0] opened from 127.0.0.1:33024
+Aug 24 02:21 : client: [1] opened from 127.0.0.1:33026
+Aug 24 02:21 : client: [2] opened from 127.0.0.1:33028
+Aug 24 02:21 : client: [3] opened from 127.0.0.1:33030
+Aug 24 02:21 : client: [0] closed
+Aug 24 02:21 : client: [1] closed
+Aug 24 02:21 : client: [3] closed
+Aug 24 02:21 : client: [2] closed
+Aug 24 02:21 : client: [4] opened from 127.0.0.1:33038
+Aug 24 02:21 : client: [5] opened from 127.0.0.1:33040
+Aug 24 02:21 : client: [6] opened from 127.0.0.1:33042
+Aug 24 02:21 : client: [7] opened from 127.0.0.1:33044
+Aug 24 02:21 : client: [4] closed
+Aug 24 02:21 : client: [5] closed
+Aug 24 02:21 : client: [6] closed
+Aug 24 02:21 : client: [7] closed
+Aug 24 02:21 : client: [8] opened from 127.0.0.1:33052
+Aug 24 02:21 : client: [9] opened from 127.0.0.1:33054
+Aug 24 02:22 : client: [8] closed
+Aug 24 02:22 : client: [9] closed
+Aug 24 02:22 : client: [10] opened from 127.0.0.1:33056
+Aug 24 02:22 : client: [11] opened from 127.0.0.1:33058
+Aug 24 02:22 : client: [12] opened from 127.0.0.1:33060
+Aug 24 02:22 : client: [13] opened from 127.0.0.1:33062
+Aug 24 02:22 : client: [12] closed
+Aug 24 02:22 : client: [10] closed
+Aug 24 02:22 : client: [11] closed
+Aug 24 02:22 : client: [13] closed
+Aug 24 02:22 : client: [14] opened from 127.0.0.1:33064
+Aug 24 02:22 : client: [15] opened from 127.0.0.1:33066
+Aug 24 02:22 : client: [14] closed
+Aug 24 02:22 : client: [15] closed
+Aug 24 02:22 : client: [16] opened from 127.0.0.1:33068
+Aug 24 02:22 : client: [17] opened from 127.0.0.1:33070
+Aug 24 02:23 : client: [16] closed
+Aug 24 02:23 : client: [17] closed
+Aug 24 02:23 : client: [18] opened from 127.0.0.1:33072
+Aug 24 02:23 : client: [19] opened from 127.0.0.1:33074
+Aug 24 02:23 : client: [18] closed
+Aug 24 02:23 : client: [19] closed
+Aug 24 02:23 : client: [20] opened from 127.0.0.1:33076
+Aug 24 02:23 : client: [21] opened from 127.0.0.1:33078
+Aug 24 02:23 : client: [22] opened from 127.0.0.1:33080
+Aug 24 02:23 : client: [23] opened from 127.0.0.1:33082
+Aug 24 02:23 : client: [22] closed
+Aug 24 02:23 : client: [23] closed
+Aug 24 02:23 : client: [20] closed
+Aug 24 02:23 : client: [21] closed
+Aug 24 02:23 : client: [24] opened from 127.0.0.1:33084
+Aug 24 02:23 : client: [25] opened from 127.0.0.1:33086
+Aug 24 02:24 : client: [24] closed
+Aug 24 02:24 : client: [25] closed
+Aug 24 02:24 : client: [26] opened from 127.0.0.1:33088
+Aug 24 02:26 : client: [26] closed
+Aug 24 02:26 : client: [27] opened from 127.0.0.1:33090
+Aug 24 02:26 : client: [28] opened from 127.0.0.1:33092
+Aug 24 02:26 : client: [27] closed
+Aug 24 02:26 : client: [28] closed
+Aug 24 02:26 : client: [29] opened from 127.0.0.1:33094
+Aug 24 02:29 : client: [29] closed
+Aug 24 02:29 : client: [30] opened from 127.0.0.1:33096
+Aug 24 02:30 : client: [30] closed
+Aug 24 02:30 : client: [31] opened from 127.0.0.1:33098
+Aug 24 02:30 : client: [31] closed
+Aug 24 02:31 : client: [32] opened from 127.0.0.1:33100
+Aug 24 02:32 : client: [32] closed
+Aug 24 02:32 : client: [33] opened from 127.0.0.1:33102
+Aug 24 02:48 : client: [33] closed
+Aug 24 02:48 : client: [34] opened from 127.0.0.1:33268
+Aug 24 02:54 : client: [35] opened from [::1]:39394
+Aug 24 02:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 02:55 : player: played "bit/Slime Girls/Vacation Wasted/06TimeTravelLament.mp3"
+Aug 24 02:56 : client: [34] closed
+Aug 24 02:56 : client: [36] opened from 127.0.0.1:33288
+Aug 24 02:56 : client: [35] closed
+Aug 24 02:56 : client: [37] opened from [::1]:39398
+Aug 24 02:57 : client: [38] opened from [::1]:39400
+Aug 24 02:59 : client: [38] closed
+Aug 24 03:04 : player: played "synthwave/Dreamwaves.mp3"
+Aug 24 03:04 : client: [37] closed
+Aug 24 17:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 17:44 : client: [0] opened from 127.0.0.1:50632
+Aug 24 18:04 : client: [0] closed
+Aug 24 18:04 : client: [1] opened from 127.0.0.1:50686
+Aug 24 18:06 : client: [1] closed
+Aug 24 18:06 : client: [2] opened from 127.0.0.1:50688
+Aug 24 18:06 : client: [2] closed
+Aug 24 18:06 : client: [3] opened from 127.0.0.1:50690
+Aug 24 18:06 : client: [3] closed
+Aug 24 18:06 : client: [4] opened from 127.0.0.1:50692
+Aug 24 19:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 19:55 : client: [0] opened from 127.0.0.1:35158
+Aug 25 06:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 25 06:13 : client: [0] opened from 127.0.0.1:52084
+Aug 25 07:36 : client: [1] opened from [::1]:53094
+Aug 25 07:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 25 07:41 : player: played "bit/Slime Girls/Vacation Wasted/10ACruelAngelThesisAyanamiReggaeVer.mp3"
+Aug 25 08:21 : client: [1] closed
+Aug 25 08:27 : client: [2] opened from [::1]:53196
+Aug 25 08:32 : client: [2] closed
+Aug 25 08:33 : client: [3] opened from [::1]:53240
+Aug 25 08:33 : client: [3] closed
+Aug 25 08:33 : client: [4] opened from [::1]:53242
+Aug 25 08:35 : client: [5] opened from [::1]:53244
+Aug 25 08:35 : client: [4] closed
+Aug 25 08:36 : player: played "bit/Slime Girls/Vacation Wasted/07Starbolt.mp3"
+Aug 25 08:40 : player: played "bit/Slime Girls/Vacation Wasted/08SpringBreak199X.mp3"
+Aug 25 08:41 : player: played "bit/Slime Girls/Vacation Wasted/09StarboltReprise.mp3"
+Aug 25 08:44 : client: [6] opened from [::1]:53406
+Aug 25 08:45 : player: played "bit/Slime Girls/Vacation Wasted/10ACruelAngelThesisAyanamiReggaeVer.mp3"
+Aug 25 08:45 : player: played "bit/Slime Girls/Vacation Wasted/01Intro.mp3"
+Aug 25 08:45 : client: [6] closed
+Aug 25 08:54 : player: played "bit/Slime Girls/Vacation Wasted/03SplashNebula.mp3"
+Aug 25 08:54 : client: [5] closed
+Aug 25 08:57 : client: [7] opened from [::1]:53426
+Aug 25 08:59 : player: played "vaporwave/Macintosh Plus/MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3"
+Aug 25 11:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 25 11:10 : client: [0] opened from 127.0.0.1:49250
+Aug 25 11:16 : client: [1] opened from [::1]:48616
+Aug 25 11:35 : client: [2] opened from [::1]:48966
+Aug 25 11:35 : update: added synthwave/Gunship/The_mountain.mp3
+Aug 25 11:35 : update: added synthwave/Gunship/Revel_In_Your_Time.mp3
+Aug 25 11:35 : update: added synthwave/Gunship/Tech_Noir.wav
+Aug 25 11:35 : update: added synthwave/Mondgomery/Pure_Sport.mp3
+Aug 25 11:35 : update: added synthwave/Kavinsky/Nightcall.mp3
+Aug 25 11:35 : update: added synthwave/Kavinsky/ProtoVision.mp3
+Aug 25 11:35 : update: added synthwave/Night_Tempo/If_You_Love_Me.mp3
+Aug 25 11:35 : update: added synthwave/Trevor_Something/Summer_Love.mp3
+Aug 25 11:35 : update: added misc/Lost_Years/Pressure.mp3
+Aug 25 11:35 : update: added misc/RUDE/Eternal_Youth.mp3
+Aug 25 11:35 : update: removing electric/HOME/HOME - Resonance.mp3
+Aug 25 11:35 : update: added electric/HOME/Head_First.mp3
+Aug 25 11:35 : update: added electric/HOME/Resonance.mp3
+Aug 25 11:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 25 11:38 : client: [1] closed
+Aug 25 11:40 : player: played "misc/Lost_Years/Pressure.mp3"
+Aug 25 11:40 : client: [2] closed
+Aug 26 12:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 26 12:58 : client: [0] opened from 127.0.0.1:40114
+Aug 26 13:12 : client: [0] closed
+Aug 26 13:12 : client: [1] opened from 127.0.0.1:40192
+Aug 26 13:16 : client: [1] closed
+Aug 26 13:16 : client: [2] opened from 127.0.0.1:40320
+Aug 26 13:18 : client: [2] closed
+Aug 26 13:18 : client: [3] opened from 127.0.0.1:40346
+Aug 26 13:19 : client: [3] closed
+Aug 26 13:19 : client: [4] opened from 127.0.0.1:40396
+Aug 26 13:20 : client: [4] closed
+Aug 26 13:20 : client: [5] opened from 127.0.0.1:40398
+Aug 26 13:21 : client: [5] closed
+Aug 26 13:21 : client: [6] opened from 127.0.0.1:40400
+Aug 26 13:23 : client: [6] closed
+Aug 26 13:23 : client: [7] opened from 127.0.0.1:40404
+Aug 26 13:24 : client: [7] closed
+Aug 26 13:24 : client: [8] opened from 127.0.0.1:40406
+Aug 26 13:24 : client: [8] closed
+Aug 26 13:24 : client: [9] opened from 127.0.0.1:40408
+Aug 26 13:24 : client: [9] closed
+Aug 26 13:24 : client: [10] opened from 127.0.0.1:40410
+Aug 26 13:25 : client: [10] closed
+Aug 26 13:25 : client: [11] opened from 127.0.0.1:40412
+Aug 26 13:32 : client: [11] closed
+Aug 26 13:32 : client: [12] opened from 127.0.0.1:40446
+Aug 26 13:32 : client: [12] closed
+Aug 26 13:32 : client: [13] opened from 127.0.0.1:40448
+Aug 26 13:34 : client: [13] closed
+Aug 26 13:34 : client: [14] opened from 127.0.0.1:40484
+Aug 26 13:42 : client: [15] opened from [::1]:55240
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/Be'lakor - From Scythe to Sceptre-Y87bVC8tG2Q.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/Be'lakor - Venator-YTUMo2h0ysk.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/BE´LAKOR - Held in Hollows-1S7N3RxkgBY.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/Be'lakor - Husks-cU6ul3XE92U.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/Be'lakor - Aspect-CuhQK6WPD7I.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/BE´LAKOR - Sun's Delusion-AtohSHR6fuY.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/Be'lakor - Outlive The Hand-BDQQ0cH1Ys4.mp3
+Aug 26 13:42 : update: added Metal/Belakor/Stones_Reach/Be'lakor - Countless Skies-eYaxAosBuro.mp3
+Aug 26 13:42 : update: added synthwave/Lost_Years/Pressure.mp3
+Aug 26 13:42 : update: removing misc/Lost_Years/Pressure.mp3
+Aug 26 13:43 : update: removing Metal/Belakor/Stones_Reach/Be'lakor - Aspect-CuhQK6WPD7I.mp3
+Aug 26 13:43 : update: added Metal/Belakor/Stones_Reach/Aspect.mp3
+Aug 26 13:44 : update: removing Metal/Belakor/Stones_Reach/Be'lakor - Countless Skies-eYaxAosBuro.mp3
+Aug 26 13:44 : update: added Metal/Belakor/Stones_Reach/Countless Skies.mp3
+Aug 26 13:44 : update: removing Metal/Belakor/Stones_Reach/Be'lakor - From Scythe to Sceptre-Y87bVC8tG2Q.mp3
+Aug 26 13:44 : update: added Metal/Belakor/Stones_Reach/From Scythe to Sceptre.mp3
+Aug 26 13:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 26 13:45 : player: played "Metal/Belakor/Stones_Reach/Countless Skies.mp3"
+Aug 26 13:45 : client: [15] closed
+Aug 27 11:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 27 11:56 : client: [0] opened from 127.0.0.1:33260
+Aug 27 11:58 : client: [1] opened from [::1]:44078
+Aug 27 11:59 : update: removing Metal/Belakor/Stones_Reach/Be'lakor - Husks-cU6ul3XE92U.mp3
+Aug 27 11:59 : update: added Metal/Belakor/Stones_Reach/Husks.mp3
+Aug 27 12:00 : update: removing Metal/Belakor/Stones_Reach/Be'lakor - Outlive The Hand-BDQQ0cH1Ys4.mp3
+Aug 27 12:00 : update: added Metal/Belakor/Stones_Reach/Outlive The Hand.mp3
+Aug 27 12:00 : update: removing Metal/Belakor/Stones_Reach/Be'lakor - Venator-YTUMo2h0ysk.mp3
+Aug 27 12:00 : update: added Metal/Belakor/Stones_Reach/Venator.mp3
+Aug 27 12:00 : update: removing Metal/Belakor/Stones_Reach/BE´LAKOR - Held in Hollows-1S7N3RxkgBY.mp3
+Aug 27 12:00 : update: added Metal/Belakor/Stones_Reach/Held in Hollows.mp3
+Aug 27 12:01 : update: removing Metal/Belakor/Stones_Reach/BE´LAKOR - Sun's Delusion-AtohSHR6fuY.mp3
+Aug 27 12:01 : update: added Metal/Belakor/Stones_Reach/Sun's Delusion.mp3
+Aug 27 12:01 : update: updating Metal/Belakor/Stones_Reach/From Scythe to Sceptre.mp3
+Aug 27 12:02 : client: [1] closed
+Aug 27 12:02 : client: [2] opened from [::1]:44080
+Aug 27 12:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 27 12:19 : player: played "synthwave/Night_Tempo/If_You_Love_Me.mp3"
+Aug 27 12:26 : client: [2] closed
+Aug 27 12:26 : client: [3] opened from [::1]:44240
+Aug 27 12:26 : client: [3] closed
+Aug 27 12:26 : client: [4] opened from [::1]:44242
+Aug 27 12:26 : client: [4] closed
+Aug 27 12:26 : client: [5] opened from [::1]:44244
+Aug 27 12:27 : client: [5] closed
+Aug 27 12:27 : client: [6] opened from [::1]:44246
+Aug 27 12:55 : client: [0] closed
+Aug 27 12:55 : client: [7] opened from 127.0.0.1:33440
+Aug 27 12:56 : client: [7] closed
+Aug 27 12:56 : client: [8] opened from 127.0.0.1:33442
+Aug 27 13:15 : player: played "electric/HOME/Resonance.mp3"
+Aug 28 11:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 11:22 : client: [0] opened from 127.0.0.1:40188
+Aug 28 12:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 12:32 : client: [0] opened from 127.0.0.1:60174
+Aug 28 14:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 14:13 : client: [0] opened from 127.0.0.1:60746
+Aug 28 14:40 : client: [0] closed
+Aug 28 14:40 : client: [1] opened from 127.0.0.1:32770
+Aug 29 10:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 10:59 : client: [0] opened from 127.0.0.1:35722
+Aug 29 13:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 13:01 : client: [0] opened from 127.0.0.1:50608
+Aug 29 13:04 : client: [1] opened from [::1]:38992
+Aug 29 13:18 : client: [1] closed
+Aug 29 13:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 13:33 : client: [0] opened from 127.0.0.1:55780
+Aug 29 13:45 : client: [1] opened from [::1]:41890
+Aug 29 13:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 13:48 : player: played "synthwave/Trevor_Something/Summer_Love.mp3"
+Aug 29 13:58 : client: [1] closed
+Aug 29 13:58 : client: [2] opened from [::1]:41918
+Aug 29 13:58 : client: [2] closed
+Aug 29 14:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 14:11 : client: [0] opened from 127.0.0.1:52786
+Aug 30 12:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 30 12:26 : client: [0] opened from 127.0.0.1:50520
+Aug 30 12:31 : client: [0] closed
+Aug 30 12:31 : client: [1] opened from 127.0.0.1:50532
+Aug 30 14:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 30 14:10 : client: [0] opened from 127.0.0.1:35582
+Aug 30 15:25 : client: [0] closed
+Aug 30 15:25 : client: [1] opened from 127.0.0.1:35956
+Aug 31 12:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 31 12:55 : client: [0] opened from 127.0.0.1:49564
+Aug 31 14:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 31 14:08 : client: [0] opened from 127.0.0.1:54186
+Sep 01 14:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 14:08 : client: [0] opened from 127.0.0.1:53360
+Sep 01 14:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 14:11 : client: [0] opened from 127.0.0.1:47226
+Sep 01 14:16 : client: [0] closed
+Sep 01 14:16 : client: [1] opened from 127.0.0.1:47228
+Sep 01 16:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 16:17 : client: [0] opened from 127.0.0.1:43222
+Sep 01 16:17 : client: [1] opened from [::1]:39888
+Sep 01 16:19 : update: removing synthwave/Trevor_Something/Summer_Love.mp3
+Sep 01 16:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 16:19 : player: played "synthwave/Night_Tempo/If_You_Love_Me.mp3"
+Sep 01 16:24 : player: played "synthwave/Lost_Years/Pressure.mp3"
+Sep 01 16:25 : update: removing synthwave/Dreamwaves.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/The Beginning (intro).mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Summer Love.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/1st Wave (interlude).mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Sega Genesis.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Come Back Down.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Mechanical Love.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Enjoy The Silence.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Into Your Heart.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/So Far Away.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/What Is Real? (outro).mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Infatuation.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Something About You (remix).mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/2nd Wave (interlude).mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Stay.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Searching.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/In My System.mp3
+Sep 01 16:25 : update: added synthwave/Trevor_Something/Trevor Something Does Not Exist/Chun Li's Revenge (interlude).mp3
+Sep 01 16:25 : update: added misc/Dreamwaves.mp3
+Sep 01 16:25 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/The Beginning (intro).mp3"
+Sep 01 16:26 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/The Beginning (intro).mp3"
+Sep 01 16:27 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/In My System.mp3"
+Sep 01 16:31 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Come Back Down.mp3"
+Sep 01 16:35 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Summer Love.mp3"
+Sep 01 16:42 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Infatuation.mp3"
+Sep 01 16:47 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Searching.mp3"
+Sep 01 16:48 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/1st Wave (interlude).mp3"
+Sep 01 16:52 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/So Far Away.mp3"
+Sep 01 16:56 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Mechanical Love.mp3"
+Sep 01 16:59 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Sega Genesis.mp3"
+Sep 01 17:01 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Chun Li's Revenge (interlude).mp3"
+Sep 01 17:05 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Into Your Heart.mp3"
+Sep 01 17:09 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Something About You (remix).mp3"
+Sep 01 17:09 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/2nd Wave (interlude).mp3"
+Sep 01 17:13 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Stay.mp3"
+Sep 01 17:18 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Enjoy The Silence.mp3"
+Sep 01 17:21 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/What Is Real? (outro).mp3"
+Sep 01 22:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 22:40 : client: [0] opened from 127.0.0.1:57990
+Sep 02 09:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 09:00 : client: [0] opened from 127.0.0.1:33060
+Sep 02 09:24 : client: [0] closed
+Sep 02 09:24 : client: [1] opened from 127.0.0.1:33144
+Sep 02 19:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 19:14 : client: [0] opened from 127.0.0.1:34098
+Sep 02 19:14 : client: [0] closed
+Sep 02 19:14 : client: [1] opened from 127.0.0.1:34100
+Sep 02 19:17 : client: [2] opened from [::1]:33876
+Sep 02 19:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 19:18 : player: played "Metal/Belakor/Stones_Reach/Aspect.mp3"
+Sep 02 19:18 : client: [2] closed
+Sep 02 19:20 : client: [3] opened from [::1]:33878
+Sep 02 19:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 19:23 : client: [0] opened from 127.0.0.1:34286
+Sep 03 10:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 03 10:48 : client: [0] opened from 127.0.0.1:36886
+Sep 03 12:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 03 12:15 : client: [0] opened from 127.0.0.1:34966
+Sep 03 12:19 : client: [0] closed
+Sep 03 12:19 : client: [1] opened from 127.0.0.1:34968
+Sep 03 12:19 : client: [1] closed
+Sep 03 12:19 : client: [2] opened from 127.0.0.1:34970
+Sep 03 12:22 : client: [2] closed
+Sep 03 12:23 : client: [3] opened from 127.0.0.1:34972
+Sep 03 12:23 : client: [3] closed
+Sep 03 12:23 : client: [4] opened from 127.0.0.1:34974
+Sep 03 12:23 : client: [4] closed
+Sep 03 12:23 : client: [5] opened from 127.0.0.1:34976
+Sep 03 12:24 : client: [5] closed
+Sep 03 12:24 : client: [6] opened from 127.0.0.1:34978
+Sep 03 12:24 : client: [6] closed
+Sep 03 12:24 : client: [7] opened from 127.0.0.1:34980
+Sep 03 12:34 : client: [7] closed
+Sep 03 12:34 : client: [8] opened from 127.0.0.1:34984
+Sep 03 12:34 : client: [9] opened from [::1]:37758
+Sep 03 12:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 03 12:34 : player: played "Metal/Belakor/Stones_Reach/Countless Skies.mp3"
+Sep 03 12:34 : client: [9] closed
+Sep 03 12:34 : client: [10] opened from [::1]:37760
+Sep 03 12:35 : client: [8] closed
+Sep 03 12:35 : client: [11] opened from 127.0.0.1:34990
+Sep 03 12:38 : client: [11] closed
+Sep 03 12:38 : client: [12] opened from 127.0.0.1:35028
+Sep 03 12:39 : client: [12] closed
+Sep 03 12:39 : client: [13] opened from 127.0.0.1:35030
+Sep 03 12:42 : client: [13] closed
+Sep 03 12:42 : client: [14] opened from 127.0.0.1:35116
+Sep 03 12:43 : client: [14] closed
+Sep 03 12:43 : client: [15] opened from 127.0.0.1:35118
+Sep 03 12:45 : client: [15] closed
+Sep 03 12:45 : client: [16] opened from 127.0.0.1:35120
+Sep 03 12:45 : client: [16] closed
+Sep 03 12:45 : client: [17] opened from 127.0.0.1:35122
+Sep 03 12:46 : client: [17] closed
+Sep 03 12:46 : client: [18] opened from 127.0.0.1:35124
+Sep 03 12:46 : client: [18] closed
+Sep 03 12:46 : client: [19] opened from 127.0.0.1:35126
+Sep 03 12:47 : client: [19] closed
+Sep 03 12:47 : client: [20] opened from 127.0.0.1:35128
+Sep 03 12:47 : client: [20] closed
+Sep 03 12:47 : client: [21] opened from 127.0.0.1:35130
+Sep 03 12:52 : client: [10] closed
+Sep 03 12:53 : client: [21] closed
+Sep 03 12:53 : client: [22] opened from 127.0.0.1:35198
+Sep 03 12:53 : client: [23] opened from [::1]:37972
+Sep 03 12:56 : player: played "Metal/Belakor/Stones_Reach/Husks.mp3"
+Sep 03 12:56 : client: [22] closed
+Sep 03 12:56 : client: [24] opened from 127.0.0.1:35258
+Sep 03 12:57 : client: [24] closed
+Sep 03 12:57 : client: [25] opened from 127.0.0.1:35260
+Sep 03 12:59 : client: [25] closed
+Sep 03 12:59 : client: [26] opened from 127.0.0.1:35262
+Sep 03 13:00 : client: [26] closed
+Sep 03 13:00 : client: [27] opened from 127.0.0.1:35264
+Sep 03 13:01 : client: [27] closed
+Sep 03 13:01 : client: [28] opened from 127.0.0.1:35266
+Sep 03 13:01 : client: [28] closed
+Sep 03 13:01 : client: [29] opened from 127.0.0.1:35268
+Sep 03 13:02 : client: [23] closed
+Sep 04 16:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 16:08 : client: [0] opened from 127.0.0.1:60956
+Sep 04 16:09 : client: [1] opened from [::1]:60470
+Sep 04 16:09 : player: played "Metal/Belakor/Stones_Reach/Outlive The Hand.mp3"
+Sep 04 16:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 16:14 : player: played "electric/HOME/Head_First.mp3"
+Sep 04 16:15 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/1st Wave (interlude).mp3"
+Sep 04 16:15 : client: [2] opened from [::1]:60536
+Sep 04 16:15 : client: [2] closed
+Sep 04 16:15 : client: [3] opened from [::1]:60538
+Sep 04 16:15 : client: [3] closed
+Sep 04 16:17 : client: [0] closed
+Sep 04 16:17 : client: [4] opened from 127.0.0.1:32806
+Sep 04 16:18 : player: played "synthwave/Mondgomery/Pure_Sport.mp3"
+Sep 04 16:19 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/The Beginning (intro).mp3"
+Sep 04 16:20 : client: [4] closed
+Sep 04 16:20 : client: [5] opened from 127.0.0.1:32810
+Sep 04 16:20 : client: [6] opened from [::1]:60546
+Sep 04 16:20 : client: [1] closed
+Sep 04 16:22 : player: played "electric/HOME/Resonance.mp3"
+Sep 04 16:22 : client: [7] opened from [::1]:60556
+Sep 04 16:23 : client: [6] closed
+Sep 04 16:32 : player: played "vaporwave/Macintosh Plus/MACINTOSH PLUS - リサフランク420現代のコンピュー.mp3"
+Sep 04 16:36 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Enjoy The Silence.mp3"
+Sep 04 16:38 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Chun Li's Revenge (interlude).mp3"
+Sep 04 16:42 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Infatuation.mp3"
+Sep 04 16:43 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/2nd Wave (interlude).mp3"
+Sep 04 16:47 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Searching.mp3"
+Sep 04 16:51 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Sega Genesis.mp3"
+Sep 04 16:55 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Into Your Heart.mp3"
+Sep 04 16:58 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Mechanical Love.mp3"
+Sep 04 17:02 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/What Is Real? (outro).mp3"
+Sep 04 17:02 : player: played "synthwave/Trevor_Something/Trevor Something Does Not Exist/Stay.mp3"
+Sep 04 17:02 : client: [7] closed
+Sep 04 22:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 22:11 : client: [0] opened from 127.0.0.1:39650
+Sep 04 22:13 : client: [1] opened from [::1]:60108
+Sep 04 22:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 22:17 : player: played "misc/RUDE/Eternal_Youth.mp3"
+Sep 04 22:18 : player: played "synthwave/Night_Tempo/If_You_Love_Me.mp3"
+Sep 04 22:20 : client: [0] closed
+Sep 04 22:20 : client: [2] opened from 127.0.0.1:39750
+Sep 04 22:21 : client: [2] closed
+Sep 04 22:21 : client: [3] opened from 127.0.0.1:39752
+Sep 04 22:23 : player: played "Metal/Belakor/Stones_Reach/Aspect.mp3"
+Sep 04 22:33 : player: played "Metal/Belakor/Stones_Reach/Countless Skies.mp3"
+Sep 04 22:36 : player: played "Metal/Belakor/Stones_Reach/Husks.mp3"
+Sep 04 22:45 : player: played "Metal/Belakor/Stones_Reach/Venator.mp3"
+Sep 04 22:49 : client: [3] closed
+Sep 04 22:49 : client: [4] opened from 127.0.0.1:40074
+Sep 04 22:53 : client: [4] closed
+Sep 04 22:53 : client: [5] opened from 127.0.0.1:40126
+Sep 04 22:53 : player: played "Metal/Belakor/Stones_Reach/Outlive The Hand.mp3"
+Sep 04 22:54 : client: [5] closed
+Sep 04 22:54 : client: [6] opened from 127.0.0.1:40132
+Sep 04 22:54 : client: [6] closed
+Sep 04 22:54 : client: [7] opened from 127.0.0.1:40144
+Sep 04 22:54 : client: [8] opened from 127.0.0.1:40146
+Sep 04 22:55 : client: [7] closed
+Sep 04 22:55 : client: [8] closed
+Sep 04 22:55 : client: [9] opened from 127.0.0.1:40152
+Sep 04 22:55 : client: [9] closed
+Sep 04 22:55 : client: [10] opened from 127.0.0.1:40162
+Sep 04 22:55 : client: [10] closed
+Sep 04 22:55 : client: [11] opened from 127.0.0.1:40168
+Sep 04 23:03 : player: played "Metal/Belakor/Stones_Reach/Sun's Delusion.mp3"
+Sep 04 23:10 : player: played "Metal/Belakor/Stones_Reach/Held in Hollows.mp3"
+Sep 04 23:17 : player: played "Metal/Belakor/Stones_Reach/From Scythe to Sceptre.mp3"
