@@ -2,8 +2,8 @@
 
 import urllib.request, json
 
-city = "Cuyahoga Falls"
-api_key = "094408702a1affe6a57a75a7bc337104"
+city = "Your city"
+api_key = "your api code"
 units = "Imperial"
 unit_key = "F"
 
