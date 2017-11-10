@@ -1,14 +1,15 @@
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! Copyright: Dave Davenport
-! ------------------------------------------------------------------------------
-! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0000000, #dbdfbc, argb:00000000, #dbdfbc, #02143f
-! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   argb:0000000, #ff81ff, argb:00000000, #ff817f, #02143f
-! "Color scheme for active row" Set from: File
-rofi.color-active:                   argb:0000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
-! "Color scheme window" Set from: File
-rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
-! "Separator style (none, dash, solid)" Set from: XResources
-rofi.separator-style:                solid
+rofi.fullscreen: true
+rofi.padding: 300
+
+#rofi.font: misc tamsyn 14
+rofi.font: fira mono 16
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.bw: 0
+
+rofi.terminal: termite
+rofi.color-enabled: true
+rofi.color-window: argb:af2a2d34, argb:af2a2d34, #a4f79b
+rofi.color-normal: argb:00000000,  #ee9cf7, argb:00000000, argb:00000000, #a4f79b
+rofi.color-active: argb:00000000, #787C81, argb:00000000, argb:00000000, #a69fcb
+rofi.color-urgent: argb:00000000, #787C81, argb:00000000, argb:00000000, #cb95ad
