@@ -9,7 +9,7 @@ set $mod Mod4
 set $term termite
 set $browser firefox
 
-#External Scrips
+#External Scripts
 #auto-start mpd
 exec --no-startup-id mpd
 #wifi applet:
@@ -27,6 +27,9 @@ exec --no-startup-id caffeine
 #Show notifications
 exec --no-startup-id dunst
 
+#Unclutter makes the mouse invisible after a brief period
+exec --no-startup-id unclutter
+
 #Audio
 
 set $music termite -e ncmpcpp
@@ -37,6 +40,9 @@ bindsym $mod+Return	exec $term
 
 #runner
 bindsym $mod+d exec rofi -show run
+
+# Launch broswer
+bindsym $mod+i exec firefox
 
 #kill window
 bindsym $mod+Shift+q		kill
@@ -78,6 +84,8 @@ bindsym $mod+Shift+Left		move left
 bindsym $mod+Shift+Down		move down
 bindsym $mod+Shift+Up		move up
 bindsym $mod+Shift+Right 	move right
+
+
 
 
 #Music
@@ -125,6 +133,9 @@ bindsym XF86AudioMute exec pulseaudio-ctl mute
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
+# Screen print
+bindsym Print exec scrot 'scrot_%Y-%m-%d-%S_$wx$h.png'
 
 
 #Workspace names
