@@ -18,11 +18,20 @@ primary = #5d5db1
 secondary = #e60053
 alert = #bd2c40
 col = #00f
+
+
+[global/wm]
+margin-top = 5
+;;margin-bottom = 5
+margin-bottom = 2
+override-redirect = true 
+; vim:ft=dosini
+
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 monitor = ${env:MONITOR:LVDS-1}
 width = 100%
-height = 24
+height = 20
 ;offset-x = 1%
 ;offset-y = 1%
 ;radius = 6.0
@@ -48,10 +57,11 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = FontAwesome:pixelsize=10;1
 ;font-3 = NotoColorEmoji:pixelsize=10;1
 
-modules-left = i3 mpd
-;modules-center = mpd
-modules-right = memory cpu temperature weather xbacklight battery volume date
-;;first used to be filesystem
+modules-left = i3 ;;mpd
+modules-center = mpd
+modules-right = temperature xbacklight battery volume weather date
+
+;; memory cpu .. 
 tray-position = right
 tray-padding = 0
 ;tray-transparent = true
@@ -71,6 +81,8 @@ tray-padding = 0
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
+
+label-padding = 2
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -156,7 +168,7 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 [module/mpd]
 type = internal/mpd
 
-format-online = <label-song> <toggle>
+format-online = <label-song> <toggle> <icon-prev> <icon-next>
 
 ;<icon-prev> <icon-stop> <icon-next>
 
@@ -178,8 +190,8 @@ label-song-ellipsis = true
 
 [module/xbacklight]
 type = internal/xbacklight
-
-format = <ramp> <label>
+;; <bar> for scroll//
+format = <ramp> <label> 
 label = %percentage%
 
 ;only applies if <ramp> is used
@@ -262,22 +274,47 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
+;[module/date]
 [module/date]
 type = internal/date
-interval = 5
 
-date = " %a, %b %d, %y"
+; Seconds to sleep between updates
+interval = 1.0
+
+; See "man date" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+date = %a %b %d, 
+
+; Optional time format
+;time = %H:%M
+time = "%I:%M %p"
+; if `date-alt` or `time-alt` is defined, clicking
+; the module will toggle between formats
+;date-alt = %A, %d %B %Y
+;time-alt = %H:%M:%S
+
+label = %date% %time%
+format =  <label>
+;format-background = #ddffffff
+;;format-background = #88000000
+;format-foreground = #333
+;format-padding = 0
+;;
+;;type = internal/date
+;;interval = 5
+
+;;date = " %a, %b %d, %y"
 ;date-alt = " %Y-%m-%d"
 
-time = " at %I:%M%p"
+;;time = " at %I:%M%p"
 ;time = %H:%M
 ;time-alt = %H:%M:%S
 
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+;;format-prefix = 
+;;format-prefix-foreground = ${colors.foreground-alt}
+;;format-underline = #0a6cf5
 
-label = %date% %time%
+;;label = %date% %time%
 
 [module/volume]
 type = internal/volume
@@ -286,7 +323,7 @@ format-volume = <ramp-volume> <label-volume>
 label-volume = "%percentage%%"
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = ""
 format-muted-foreground = ${colors.foreground-alt}
 label-muted =  0%
 
@@ -383,8 +420,6 @@ format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 exec = ~/.config/polybar/weather.py
 
-
-
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
@@ -392,8 +427,3 @@ screenchange-reload = true
 ;compositing-foreground = source
 ;compositing-border = over
 
-[global/wm]
-margin-top = 5
-margin-bottom = 5
-
-; vim:ft=dosini
