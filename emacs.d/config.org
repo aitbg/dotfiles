@@ -44,20 +44,30 @@
 #+END_SRC
 * org-mode stuff
 #+BEGIN_SRC emacs-lisp
-  ;;This package makes org bullets look prettier, replaces *s
-  (use-package org-bullets
-    :ensure t
-    :config
-    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+    ;;This package makes org bullets look prettier, replaces *s
+    (use-package org-bullets
+      :ensure t
+      :config
+      (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
 
-;; Keybinding to let me go to my main organizer file immediately 
+  ;; Keybinding to let me go to my main organizer file immediately 
 
-(global-set-key (kbd "\e\eo") 
-                (lambda () (interactive) (find-file "~/organizer.org")))
-;; Line wrapping 
-(add-hook 'org-mode-hook
-          '(lambda ()
-             (visual-line-mode 1)))
+  (global-set-key (kbd "\e\eo") 
+                  (lambda () (interactive) (find-file "~/organizer.org")))
+  ;; Line wrapping 
+  (add-hook 'org-mode-hook
+            '(lambda ()
+               (visual-line-mode 1)))
+
+
+
+  (use-package ox-reveal
+  :ensure ox-reveal)
+
+  (use-package htmlize
+  :ensure t)
+
+
 #+END_SRC
 * Buffers
 #+BEGIN_SRC emacs-lisp
@@ -109,6 +119,20 @@
        '(aw-leading-char-face
          ((t (:inherit ace-jump-face-foreground :height 2.5)))))))
 #+END_SRC
+* LaTex/Markdown etc
+#+BEGIN_SRC emacs-lisp
+  (use-package tex
+    :ensure auctex)
+
+  (use-package markdown-mode
+    :ensure t
+    :commands (markdown-mode gfm-mode)
+    :mode (("README\\.md\\'" . gfm-mode)
+	   ("\\.md\\'" . markdown-mode)
+	   ("\\.markdown\\'" . markdown-mode))
+    :init (setq markdown-command "multimarkdown"))
+			  
+#+END_SRC
 * Dired 
 #+BEGIN_SRC emacs-lisp
   (use-package dired+
@@ -159,47 +183,57 @@
 #+END_SRC
 * Themes...
 #+BEGIN_SRC emacs-lisp
-        ;;large collection of base16 themes
-        (use-package base16-theme
-         :ensure t
-        )
-        ;;just a light and a dark moe theme
-        (use-package moe-theme 
-         :ensure t)
-      ;;  (load-theme 'moe-light t)
-        ;; Color-theme
-        (use-package color-theme
-          :ensure t)
-     ;;Gruvbox-theme, not base16?
-     (use-package gruvbox-theme 
-       :ensure t)
-
-
-        ;; Cyberpunk theme
-      (use-package cyberpunk-theme
-  ;;      :disabled t
-        :ensure t
-        :defer t)
-
-        (use-package spacemacs-theme 
-          :ensure t
-         )
-          (load-theme 'spacemacs-dark 0)
-
-  ;; Ample-theme "calm dark theme for emacs"
-
-  (use-package ample-theme
-    :ensure t
-    )
-
-        ;;powerline with moe-dark
-      ;;    (moe-dark) 
-        (use-package powerline
-          :ensure t
-          :config
-          (powerline-default-theme)
-  ;;      (powerline-moe-theme)
+          ;;large collection of base16 themes
+          (use-package base16-theme
+           :ensure t
           )
+          ;;just a light and a dark moe theme
+          (use-package moe-theme 
+            :ensure t
+           )
+
+    ;;xresources theme for terminal
+    (when (display-graphic-p)
+      (use-package xresources-theme
+        :ensure t
+        )
+      )
+
+    ;;  (load-theme 'moe-light t)
+          ;; Color-theme
+          (use-package color-theme
+            :ensure t
+            :defer t)
+       ;;Gruvbox-theme, not base16?
+       (use-package gruvbox-theme 
+         :ensure t
+         :defer t)
+
+
+          ;; Cyberpunk theme
+        (use-package cyberpunk-theme
+    ;;      :disabled t
+          :ensure t
+          :defer t)
+
+          (use-package spacemacs-theme 
+            :disabled t
+           )
+
+    ;; Ample-theme "calm dark theme for emacs"
+
+    (use-package ample-theme
+      :ensure t
+      )
+
+          ;;powerline with moe-dark
+        ;;    (moe-dark) 
+          (use-package powerline
+            :ensure t
+            :config
+            (powerline-default-theme)
+    ;;      (powerline-moe-theme)
+            )
 
 #+END_SRC
 * Flycheck for syntax highlighting (multi-lang)
@@ -239,7 +273,7 @@
 #+END_SRC
 * Refactoring 
 #+BEGIN_SRC emacs-lisp
-;; Mark and edit all ocpies within a region
+;; Mark and edit all copies within a region
 (use-package iedit
   :ensure t)
 
@@ -310,13 +344,19 @@
 ;;(add-hook 'c++-mode-hook (lambda () (setq flycheck-clang-language-standard 
 (add-hook 'c++-mode-hook (lambda () (setq flycheck-clang-language-standard "c++11")))
 
-
 #+END_SRC
 * Rust Programming
 #+BEGIN_SRC emacs-lisp 
-  ;;(use-package rust-mode)
-
-  ;;Where rust related packages will go
+  (use-package rust-mode
+    :mode "\\.rs\\'"
+    :config
+    (setq rust-format-on-save t)
+    (add-hook 'rust-mode-hook 'racer-mode)
+  ;;  (add-hook 'racer-mode-hook 'eldoc-mode)
+    (add-hook 'rust-mode-hook 'company-mode)
+  ;;  (add-hook 'rust-mode-hook 'flycheck-mode)
+  ;;  (add-hook 'flycheck-mode-hook 'flycheck-rust-setup)
+  (setq company-tooltip-align-annotations t))
 #+END_SRC
 * NeoTree
 #+BEGIN_SRC emacs-lisp
